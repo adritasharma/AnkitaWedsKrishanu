@@ -40,28 +40,45 @@
 /* Navbar */
 
 @media only screen and (min-width: 366px) and (max-width: 464px) {
-.navbar-brand h2{
-  font-size: 1.5rem;
-}
+  .navbar-brand h2 {
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and (min-width: 281px) and (max-width: 365px) {
-  .navbar-brand h2{
+  .navbar-brand h2 {
     font-size: 1rem;
   }
+}
+@media only screen and (min-width: 0px) and (max-width: 280px) {
+  .navbar-brand h2 {
+    font-size: 0.8rem;
   }
-  @media only screen and (min-width: 0px) and (max-width: 280px) {
-    .navbar-brand h2{
-      font-size: 0.8rem;
-    }
-    }
+}
 
-    @media only screen and (min-width: 0px) and (max-width: 464px) {
-      .navbar-toggler{
-        font-size: 1rem;
-        padding: 0.1rem;
-      }
-      }
-      
+@media only screen and (min-width: 0px) and (max-width: 464px) {
+  .navbar-toggler {
+    font-size: 1rem;
+    padding: 0.1rem;
+  }
+}
 
 /* ---- Navbar ----- */
+
+/* Banner */
+
+.banner{
+  background-size: 100% auto !important;
+  background-repeat: no-repeat !important;
+  height: 100vh;
+  
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 464px) {
+  .banner {
+    height: 70vh;
+  }
+}
+
+/* ------Banner---------- */

@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Navbar } from "./Navbar";
+import { Banner } from "./Sections/Banner";
 import { Timer } from "./Sections/Timer";
 import { Whenandwhere } from "./Sections/Whenandwhere";
 
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <Banner/>
       <div className="container">
       <Timer/>
       <Whenandwhere/>
