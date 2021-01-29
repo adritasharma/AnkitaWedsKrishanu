@@ -1,19 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 import { Navbar } from "./Navbar";
 import { Banner } from "./Sections/Banner";
 import { Timer } from "./Sections/Timer";
+import { Bridegroom } from "./Sections/Bridegroom/Bridegroom";
 import { Whenandwhere } from "./Sections/Whenandwhere";
+import { Seperator } from "./Seperator";
+import { Footer } from "./Footer";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Banner/>
+      <Banner />
       <div className="container">
-      <Timer/>
-      <Whenandwhere/>
+        <Seperator />
+        <Timer />
+        <Seperator />
+        {/* <Bridegroom /> */}
+        <Seperator />
+        <Whenandwhere />
       </div>
+      <Footer />
+
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

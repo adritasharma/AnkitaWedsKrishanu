@@ -13,6 +13,11 @@
   }
 }
 
+.seperator {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -82,3 +87,30 @@
 }
 
 /* ------Banner---------- */
+
+
+/* Bridegroom */
+
+.social-media-section{
+  margin-top: 20px;
+}
+.social-media-section i {
+  font-size: x-large;
+}
+
+.fa-facebook{
+  color: #3b5998;
+}
+
+.fa-instagram{
+  color:#c30081
+}
+
+.fa-linkedin{
+  color:#0a66c2
+}
+.bridegroom-image{
+  height: 175vh;
+}
+/* ------Bridegroom---------- */
+
