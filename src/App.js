@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Navbar } from "./Navbar";
 import { Timer } from "./Sections/Timer";
+import { Whenandwhere } from "./Sections/Whenandwhere";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <div className="container">
       <Timer/>
+      <Whenandwhere/>
       </div>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
