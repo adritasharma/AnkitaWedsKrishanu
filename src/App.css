@@ -1,10 +1,18 @@
 .App {
   text-align: center;
+  font-family: monospace !important;
+  background: #eff3f5;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.bg-danger {
+  background-color: #dc838b !important;
+  color: #fff !important;
+  text-shadow: 0px 0px 2px #002e5d;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -43,7 +51,11 @@
 }
 
 /* Navbar */
+.navbar-brand, .nav-link{
+  color: #fff !important;
+  font-style: italic;
 
+}
 @media only screen and (min-width: 366px) and (max-width: 464px) {
   .navbar-brand h2 {
     font-size: 1.5rem;
@@ -70,6 +82,17 @@
 
 /* ---- Navbar ----- */
 
+/* Timer */
+
+.timer{
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 2rem;
+}
+.count-box{
+  color: #dc838b;
+}
+/* --------Timer------------ */
 /* Banner */
 
 .banner{
@@ -82,7 +105,7 @@
 
 @media only screen and (min-width: 0px) and (max-width: 464px) {
   .banner {
-    height: 70vh;
+    height: 30vh;
   }
 }
 

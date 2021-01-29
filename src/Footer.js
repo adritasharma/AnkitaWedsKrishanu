@@ -8,9 +8,7 @@ export class Footer extends Component {
         <footer className="bg-danger text-center text-lg-start">
           <div className="text-center p-3">
             © 2021 Copyright Adrita Sharma:
-            <a className="text-dark" href="https://mdbootstrap.com/">
-              <Bridegroomsocialmedia socialMedia={{ fb: "https://www.facebook.com/adrita.sharma.5", insta: "", linkedIn: "" }} />
-            </a>
+            <Bridegroomsocialmedia socialMedia={{ fb: "https://www.facebook.com/adrita.sharma.5", insta: "", linkedIn: "" }} />
           </div>
         </footer>
       </Fragment>

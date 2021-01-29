@@ -43,11 +43,11 @@ export class Timer extends Component {
 
     return (
       <Fragment>
-        <div className="row">
+        <div className="row timer">
           <div className="col-lg-3 col-6">
             <div className="count-box">
               <div>
-                <div data-toggle="counter-up">{t.days}</div>
+                <h2 className="time-type">{t.days}</h2>
                 <img
                   src={process.env.PUBLIC_URL + "/images/heart.gif"}
                   height="50"
@@ -59,7 +59,7 @@ export class Timer extends Component {
 
           <div className="col-lg-3 col-6">
             <div className="count-box">
-              <div data-toggle="counter-up">{("0" + t.hours).slice(-2)}</div>
+              <h2 className="time-type">{("0" + t.hours).slice(-2)}</h2>
               <img
                 src={process.env.PUBLIC_URL + "/images/heart.gif"}
                 height="50"
@@ -71,7 +71,7 @@ export class Timer extends Component {
           <div className="col-lg-3 col-6 mt-5 mt-lg-0">
             <div className="count-box">
               <i className="icofont-live-support"></i>
-              <div data-toggle="counter-up">{("0" + t.minutes).slice(-2)}</div>
+              <h2 className="time-type">{("0" + t.minutes).slice(-2)}</h2>
               <img
                 src={process.env.PUBLIC_URL + "/images/heart.gif"}
                 height="50"
@@ -82,7 +82,7 @@ export class Timer extends Component {
 
           <div className="col-lg-3 col-6 mt-5 mt-lg-0">
             <div className="count-box">
-              <div data-toggle="counter-up">{("0" + t.seconds).slice(-2)}</div>
+              <h2 className="time-type">{("0" + t.seconds).slice(-2)}</h2>
               <img
                 src={process.env.PUBLIC_URL + "/images/heart.gif"}
                 height="50"
