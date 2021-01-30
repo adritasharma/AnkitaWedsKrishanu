@@ -1,16 +1,19 @@
 .App {
   text-align: center;
   font-family: monospace !important;
-  background: #eff3f5;
+  background-attachment: fixed !important;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+/* 
+global-color-primary: #FFCDCB;
+    --e-global-color-secondary: #162098; */
 
 .bg-danger {
-  background-color: #dc838b !important;
+  background-color: #ff7879 !important;
   color: #fff !important;
   text-shadow: 0px 0px 2px #002e5d;
 }
@@ -51,11 +54,12 @@
 }
 
 /* Navbar */
-.navbar-brand, .nav-link{
+
+.navbar-brand, .nav-link {
   color: #fff !important;
   font-style: italic;
-
 }
+
 @media only screen and (min-width: 366px) and (max-width: 464px) {
   .navbar-brand h2 {
     font-size: 1.5rem;
@@ -67,6 +71,7 @@
     font-size: 1rem;
   }
 }
+
 @media only screen and (min-width: 0px) and (max-width: 280px) {
   .navbar-brand h2 {
     font-size: 0.8rem;
@@ -84,22 +89,30 @@
 
 /* Timer */
 
-.timer{
+.timer {
   background: #fff;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgb(235 56 56 / 35%) 0px 15px 30px;
   padding: 2rem;
 }
-.count-box{
-  color: #dc838b;
+
+.count-box {
+  color: #162098;
+  text-shadow: 2px 2px #ebebeb;
 }
+
+.count-box p {
+  color: #ff7879;
+  font-size: 2rem;
+}
+
 /* --------Timer------------ */
+
 /* Banner */
 
-.banner{
+.banner {
   background-size: 100% auto !important;
   background-repeat: no-repeat !important;
   height: 100vh;
-  
 }
 
 
@@ -110,30 +123,50 @@
 }
 
 /* ------Banner---------- */
-
-
+.savethedate{
+  height: 60vh;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+}
 /* Bridegroom */
 
-.social-media-section{
+.bridegroom-name{
+  color:#162098;
+  font-size: 2rem;
+  text-shadow: 2px 2px #ebebeb;
+}
+.social-media-section {
   margin-top: 20px;
 }
+
 .social-media-section i {
   font-size: x-large;
 }
 
-.fa-facebook{
+.fa-facebook {
   color: #3b5998;
 }
 
-.fa-instagram{
-  color:#c30081
+.fa-instagram {
+  color: #c30081
 }
 
-.fa-linkedin{
-  color:#0a66c2
+.fa-linkedin {
+  color: #0a66c2
 }
-.bridegroom-image{
-  height: 175vh;
+
+.bridegroom-image {
+  /* height: 175vh; */
 }
+.bridegroom-image { transition: all .2s ease-in-out; }
+.bridegroom-image:hover { transform: scale(1.1); }
+
 /* ------Bridegroom---------- */
 
+.card-header{
+  background-color:#ff7879!important;
+  color: #fff !important;
+  text-shadow: 0px 0px 2px #002e5d;
+  font-size: 1.5rem;
+}

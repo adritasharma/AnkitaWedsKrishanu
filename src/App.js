@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Navbar } from "./Navbar";
 import { Banner } from "./Sections/Banner";
+import { Savethedate } from "./Sections/Savethedate";
 import { Timer } from "./Sections/Timer";
 import { Bridegroom } from "./Sections/Bridegroom/Bridegroom";
 import { Whenandwhere } from "./Sections/Whenandwhere";
@@ -10,14 +11,15 @@ import { Footer } from "./Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ background: 'url(' + process.env.PUBLIC_URL + "/images/petal.png" + ')' }}>
       <Navbar />
       <Banner />
       <div className="container">
         <Seperator />
+        <Savethedate />
         <Timer />
         <Seperator />
-        {/* <Bridegroom /> */}
+        <Bridegroom />
         <Seperator />
         <Whenandwhere />
       </div>

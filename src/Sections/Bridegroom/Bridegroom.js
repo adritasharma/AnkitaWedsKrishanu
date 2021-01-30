@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from "react";
-import { Bridegroompicture } from "./Bridegroompicture";
-import { Bridegroomdescription } from "./Bridegroomdescription";
 import { Seperator } from "../../Seperator";
+import { Bridegroomsocialmedia } from "./Bridegroomsocialmedia";
 
 export class Bridegroom extends Component {
   render() {
@@ -10,13 +9,21 @@ export class Bridegroom extends Component {
         id: 1,
         name: "Ankita Sarkar",
         socialMedia: { fb: "https://www.facebook.com/adrita.sharma.5", insta: "", linkedIn: "" },
-        imagename:"ankita.jpg"
+        imagename: "ankita.jpg",
+        description: `Far far away, behind the word mountains, far from the countries
+        Vokalia and Consonantia, there live the blind texts. Separated
+        they live in Bookmarksgrove right at the coast of the Semantics, a
+        large language ocean.`
       },
       {
         id: 2,
         name: "Krishanu Dey",
         socialMedia: { fb: "", insta: "", linkedIn: "" },
-        imagename:"krishanu.jpg"
+        imagename: "krishanu.jpg",
+        description: `Far far away, behind the word mountains, far from the countries
+        Vokalia and Consonantia, there live the blind texts. Separated
+        they live in Bookmarksgrove right at the coast of the Semantics, a
+        large language ocean.`
       },
     ];
     return (
@@ -27,7 +34,20 @@ export class Bridegroom extends Component {
         {persons.map((item, i) => {
           return (
             <div className="row" key={i}>
-              {i % 2 == 0 ? (
+              <div className="col-7 mx-auto">
+                <h3 className="bridegroom-name">{item.name}</h3>
+                <img
+                  src={process.env.PUBLIC_URL + "images/" + item.imagename}
+                  className="bridegroom-image rounded-circle img-thumbnail"
+                ></img>
+              </div>
+              <div className="col-12">
+                {item.description}
+              </div>
+              <div className="col-lg-4 col-md-8 mx-auto">
+                <Bridegroomsocialmedia socialMedia={item.socialMedia} />
+              </div>
+              {/* {i % 2 == 0 ? (
                 <Fragment>
                   <div className="col-8 text-right">
                     <Bridegroomdescription key={item.id} name={item.name} socialMedia={item.socialMedia}/>
@@ -45,7 +65,7 @@ export class Bridegroom extends Component {
                     <Bridegroomdescription key={item.id} name={item.name} socialMedia={item.socialMedia}/>
                   </div>
                 </Fragment>
-              )}
+              )} */}
             </div>
           );
         })}
