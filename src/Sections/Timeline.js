@@ -11,7 +11,6 @@ export class Timeline extends Component {
 
               <div className="hori-timeline" dir="ltr">
                 <ul className="list-inline events">
- 
                   <li className="list-inline-item event-list">
                     <div className="px-4">
                       <div className="event-date bg-soft-success text-success">
@@ -59,7 +58,8 @@ export class Timeline extends Component {
                         Wedding
                       </h4>
                       <p className="text-muted">
-                      The Bride and Groom will be committed to take care of each other.
+                        The Bride and Groom will be committed to take care of
+                        each other.
                       </p>
                       <div>
                         <a href="#" className="btn btn-primary btn-sm">
@@ -81,9 +81,14 @@ export class Timeline extends Component {
                         most common words.
                       </p>
                       <div>
-                        <a href="#" className="btn btn-primary btn-sm">
-                          Read more
-                        </a>
+                        <img
+                        width="100"
+                        height="100"
+                          src={
+                            process.env.PUBLIC_URL + "images/" + "mehendi.png"
+                          }
+                          className="bridegroom-image rounded-circle img-thumbnail"
+                        ></img>
                       </div>
                     </div>
                   </li>
