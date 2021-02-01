@@ -6,6 +6,7 @@ import { Savethedate } from "./Sections/Savethedate";
 import { Timer } from "./Sections/Timer";
 import { Bridegroom } from "./Sections/Bridegroom/Bridegroom";
 import { Whenandwhere } from "./Sections/Whenandwhere";
+import { Timeline } from "./Sections/Timeline";
 import { Seperator } from "./Seperator";
 import { Footer } from "./Footer";
 
@@ -20,6 +21,8 @@ function App() {
         <Timer />
         <Seperator />
         <Bridegroom />
+        <Seperator />
+        <Timeline/>
         <Seperator />
         <Whenandwhere />
       </div>

@@ -28,14 +28,14 @@ export class Bridegroom extends Component {
     ];
     return (
       <Fragment>
-        <h2>Bride & Groom</h2>
+        <h2 className="section-header">Bride & Groom</h2>
         <Seperator />
 
         {persons.map((item, i) => {
           return (
             <div className="row" key={i}>
               <div className="col-7 mx-auto">
-                <h3 className="bridegroom-name">{item.name}</h3>
+                <h3 className="bridegroom-name item-heading">{item.name}</h3>
                 <img
                   src={process.env.PUBLIC_URL + "images/" + item.imagename}
                   className="bridegroom-image rounded-circle img-thumbnail"
