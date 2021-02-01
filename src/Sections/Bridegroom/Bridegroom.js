@@ -41,31 +41,12 @@ export class Bridegroom extends Component {
                   className="bridegroom-image rounded-circle img-thumbnail"
                 ></img>
               </div>
-              <div className="col-12">
+              <div className="col-12 bride-groom-description">
                 {item.description}
               </div>
               <div className="col-lg-4 col-md-8 mx-auto">
                 <Bridegroomsocialmedia socialMedia={item.socialMedia} />
               </div>
-              {/* {i % 2 == 0 ? (
-                <Fragment>
-                  <div className="col-8 text-right">
-                    <Bridegroomdescription key={item.id} name={item.name} socialMedia={item.socialMedia}/>
-                  </div>
-                  <div className="col-4">
-                    <Bridegroompicture imagename={item.imagename}/>
-                  </div>
-                </Fragment>
-              ) : (
-                <Fragment>
-                  <div className="col-4">
-                    <Bridegroompicture imagename={item.imagename}/>
-                  </div>
-                  <div className="col-8 text-left">
-                    <Bridegroomdescription key={item.id} name={item.name} socialMedia={item.socialMedia}/>
-                  </div>
-                </Fragment>
-              )} */}
             </div>
           );
         })}

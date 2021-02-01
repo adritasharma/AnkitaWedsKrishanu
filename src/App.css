@@ -185,15 +185,18 @@ global-color-primary: #FFCDCB;
 }
 
 .bridegroom-image {
-  /* height: 175vh; */
-}
-
-.bridegroom-image {
   transition: all 0.2s ease-in-out;
   box-shadow: rgb(235 56 56 / 35%) 0px 15px 30px;
 }
 .bridegroom-image:hover {
   transform: scale(1.1);
+}
+.bride-groom-description {
+  padding: 2rem 0;
+  color: #162098;
+  font-family: monospace !important;
+  font-size: 1rem;
+  font-style: italic;
 }
 
 /* ------Bridegroom---------- */
@@ -208,7 +211,7 @@ global-color-primary: #FFCDCB;
 /* Timeline */
 
 .hori-timeline .events {
-  border-top: 3px solid #e9ecef;
+  border-top: 1px solid #ff7879;
 }
 .hori-timeline .events .event-list {
   display: block;
@@ -221,7 +224,7 @@ global-color-primary: #FFCDCB;
   content: "";
   position: absolute;
   height: 36px;
-  border-right: 2px dashed #dee2e6;
+  border-right: 2px dashed#ff7879;
   top: 0;
 }
 .hori-timeline .events .event-list .event-date {
@@ -267,19 +270,44 @@ global-color-primary: #FFCDCB;
   font-family: monospace !important;
 }
 
-.ceremony-mehendi {
+.ceremont-text {
+  padding: 2rem 0;
+  font-family: monospace !important;
+  font-size: 1rem;
+  font-style: italic;
+}
+.ceremony-mehendi,
+.ceremony-mehendi-text {
   color: green;
 }
-.ceremony-haldi {
-  color: rgb(255, 196, 0);
+.ceremony-haldi,
+.ceremony-haldi-text {
+  color: rgb(255, 174, 0);
+  text-shadow: 0px 0px 1px #97adc5;
 }
-.ceremony-wedding {
+.ceremony-wedding,
+.ceremony-wedding-text {
   color: red;
 }
-.ceremony-reception {
+.ceremony-reception,
+.ceremony-reception-text {
   color: rgb(7, 100, 221);
 }
-
+.event-image:hover{
+    transform: scale(1.1);
+}
+.mehendi-image {
+  box-shadow: rgb(161 187 17 / 70%) 0px 9px 35px;
+}
+.haldi-image {
+  box-shadow: #fff70c 0px 9px 35px;
+}
+.wedding-image {
+  box-shadow: #ff6e4d 0px 9px 35px;
+}
+.reception-image {
+  box-shadow: rgb(17 46 187 / 70%) 0px 9px 35px;
+}
 .wedding-timeline {
   box-shadow: rgb(235 56 56 / 35%) 0px 15px 30px;
 }
@@ -292,6 +320,21 @@ global-color-primary: #FFCDCB;
 }
 
 footer .fa {
-  text-shadow: 0 0 0 black;;
+  text-shadow: 0 0 0 black;
   padding-left: 1rem;
+}
+
+.social-media-section {
+  padding: 2rem 0;
+}
+
+.when-and-where .card{
+  box-shadow: rgb(235 56 56 / 35%) 0px 15px 30px;
+}
+.address{
+  padding: 2rem 0;
+  color: #162098;
+  font-family: monospace !important;
+  font-size: 1rem;
+  font-style: italic;
 }

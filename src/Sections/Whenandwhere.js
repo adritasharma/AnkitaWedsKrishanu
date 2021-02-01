@@ -39,9 +39,9 @@ export class Whenandwhere extends Component {
               return (
                 <div className="col-lg-6 col-md-12 col-sm-12">
                   <div className="card">
-                    <div className="card-header">{item.eventName}</div>
+                    <div className="card-header ">{item.eventName}</div>
                     <div className="card-body">
-                      {item.location}
+                      <div className="address"> {item.location}</div>
                       <div>
                         <GoogleMapExample
                           containerElement={<div style={{ height: `500px` }} />}
