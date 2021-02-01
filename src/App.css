@@ -107,11 +107,19 @@ global-color-primary: #FFCDCB;
   background: #fff;
   box-shadow: rgb(235 56 56 / 35%) 0px 15px 30px;
   padding: 2rem;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate ;
+  animation-timing-function: ease-in-out;
 }
 
 .count-box {
   color: #162098;
   text-shadow: 2px 2px #ebebeb;
+}
+.time-type:hover{
+  transform: scale(1.5);
 }
 
 .count-box p {
@@ -310,6 +318,11 @@ global-color-primary: #FFCDCB;
 }
 .wedding-timeline {
   box-shadow: rgb(235 56 56 / 35%) 0px 15px 30px;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate ;
+  animation-timing-function: ease-in-out;
 }
 .event-date {
   transition: 0.5s;
@@ -337,4 +350,15 @@ footer .fa {
   font-family: monospace !important;
   font-size: 1rem;
   font-style: italic;
+}
+
+
+@keyframes example {
+  /* 0%   {width:0%;}
+  25%  {width:25%;}
+  50%  {width:50%;}
+  75%  {width:75%;}
+  100% {width:100%;} */
+  0% {transform: scale(1.1)};
+  1000% {transform: scale(1)};
 }
