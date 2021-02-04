@@ -354,6 +354,29 @@ footer .fa {
   font-size: 1rem;
   font-style: italic;
 }
+.location-frame{
+  height: 600px;
+  width: 400px;;
+}
+@media only screen and (min-width: 360px) and (max-width: 545px) {
+  .location-frame{
+    height: 500px;
+    width: 300px;;
+  }
+}
+@media only screen and (min-width: 259px) and (max-width: 359px) {
+  .location-frame{
+    height: 400px;
+    width: 200px;;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 258px) {
+  .location-frame{
+    height: 400px;
+    width: 150px;;
+  }
+}
+
 
 
 @keyframes example {
