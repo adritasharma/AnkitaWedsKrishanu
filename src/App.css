@@ -344,6 +344,9 @@ footer .fa {
 .when-and-where .card{
   box-shadow: rgb(235 56 56 / 35%) 0px 15px 30px;
 }
+.when-and-where .card-header{
+ font-style: italic;
+}
 .address{
   padding: 2rem 0;
   color: #162098;
