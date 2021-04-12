@@ -1,6 +1,5 @@
 {
   "name": "wedding-site",
-  "homepage": "http://adritasharma.github.io/wedding-site/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
