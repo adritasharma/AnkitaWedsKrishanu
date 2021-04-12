@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/AnkitaWedsKrishanu/static/css/main.9411cd7e.chunk.css",
-    "main.js": "/AnkitaWedsKrishanu/static/js/main.92c91206.chunk.js",
-    "main.js.map": "/AnkitaWedsKrishanu/static/js/main.92c91206.chunk.js.map",
+    "main.js": "/AnkitaWedsKrishanu/static/js/main.84cec812.chunk.js",
+    "main.js.map": "/AnkitaWedsKrishanu/static/js/main.84cec812.chunk.js.map",
     "runtime-main.js": "/AnkitaWedsKrishanu/static/js/runtime-main.4e06f9b3.js",
     "runtime-main.js.map": "/AnkitaWedsKrishanu/static/js/runtime-main.4e06f9b3.js.map",
     "static/js/2.de87f041.chunk.js": "/AnkitaWedsKrishanu/static/js/2.de87f041.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.4e06f9b3.js",
     "static/js/2.de87f041.chunk.js",
     "static/css/main.9411cd7e.chunk.css",
-    "static/js/main.92c91206.chunk.js"
+    "static/js/main.84cec812.chunk.js"
   ]
 }
