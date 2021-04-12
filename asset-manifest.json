@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.655f803d.chunk.css",
-    "main.js": "/static/js/main.2d626376.chunk.js",
-    "main.js.map": "/static/js/main.2d626376.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2793dbed.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2793dbed.js.map",
-    "static/js/2.de87f041.chunk.js": "/static/js/2.de87f041.chunk.js",
-    "static/js/2.de87f041.chunk.js.map": "/static/js/2.de87f041.chunk.js.map",
-    "static/js/3.1018bb77.chunk.js": "/static/js/3.1018bb77.chunk.js",
-    "static/js/3.1018bb77.chunk.js.map": "/static/js/3.1018bb77.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.655f803d.chunk.css.map": "/static/css/main.655f803d.chunk.css.map",
-    "static/js/2.de87f041.chunk.js.LICENSE.txt": "/static/js/2.de87f041.chunk.js.LICENSE.txt",
-    "static/media/logo.cfb6b948.svg": "/static/media/logo.cfb6b948.svg"
+    "main.css": "/WeddingSite/static/css/main.655f803d.chunk.css",
+    "main.js": "/WeddingSite/static/js/main.6e9f26f7.chunk.js",
+    "main.js.map": "/WeddingSite/static/js/main.6e9f26f7.chunk.js.map",
+    "runtime-main.js": "/WeddingSite/static/js/runtime-main.623788a3.js",
+    "runtime-main.js.map": "/WeddingSite/static/js/runtime-main.623788a3.js.map",
+    "static/js/2.de87f041.chunk.js": "/WeddingSite/static/js/2.de87f041.chunk.js",
+    "static/js/2.de87f041.chunk.js.map": "/WeddingSite/static/js/2.de87f041.chunk.js.map",
+    "static/js/3.1018bb77.chunk.js": "/WeddingSite/static/js/3.1018bb77.chunk.js",
+    "static/js/3.1018bb77.chunk.js.map": "/WeddingSite/static/js/3.1018bb77.chunk.js.map",
+    "index.html": "/WeddingSite/index.html",
+    "static/css/main.655f803d.chunk.css.map": "/WeddingSite/static/css/main.655f803d.chunk.css.map",
+    "static/js/2.de87f041.chunk.js.LICENSE.txt": "/WeddingSite/static/js/2.de87f041.chunk.js.LICENSE.txt",
+    "static/media/logo.cfb6b948.svg": "/WeddingSite/static/media/logo.cfb6b948.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2793dbed.js",
+    "static/js/runtime-main.623788a3.js",
     "static/js/2.de87f041.chunk.js",
     "static/css/main.655f803d.chunk.css",
-    "static/js/main.2d626376.chunk.js"
+    "static/js/main.6e9f26f7.chunk.js"
   ]
 }
