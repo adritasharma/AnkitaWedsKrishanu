@@ -63,7 +63,7 @@ export class Timeline extends Component {
                             width="100"
                             height="100"
                             src={
-                              process.env.PUBLIC_URL + "/images/" + item.eventKey +".png"
+                              process.env.PUBLIC_URL + "/images/" + item.eventKey +".PNG"
                             }
                             className={`${item.eventKey}-image event-image rounded-circle img-thumbnail`}
                           ></img>

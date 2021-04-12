@@ -14,7 +14,7 @@ export class Bridegroom extends Component {
           insta: "https://www.instagram.com/__ankitasarkar__/",
           linkedIn: "https://www.linkedin.com/in/ankita-sarkar-838199113/"
         },
-        imagename: "ankita.jpg",
+        imagename: "ankita.JPG",
         description: `Need Help!!!!!!!!!!!!`
       },
       {
@@ -25,7 +25,7 @@ export class Bridegroom extends Component {
           insta: "https://www.instagram.com/krishanu___/",
           linkedIn: "https://www.linkedin.com/in/krishanu-dey-a20333136/"
         },
-        imagename: "krishanu.jpg",
+        imagename: "krishanu.JPG",
         description: `Krishanu is a workaholic, who loves travelling and listening
          to music. He prioritises work over anything else, but family is also among his top priorities.
           He is mostly an introvert, but opens up once he is comfortable with the surroundings.
