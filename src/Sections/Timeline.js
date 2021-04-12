@@ -39,7 +39,7 @@ export class Timeline extends Component {
     return (
       <div className="row">
         <div className="col-lg-12">
-          <div className="card wedding-timeline">
+          <div className="card wedding-timeline" id="wedding-timeline">
             <div className="card-body">
               <h4 className="card-title mb-5 section-header">Events</h4>
 

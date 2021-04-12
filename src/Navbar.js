@@ -1,6 +1,10 @@
 import React, { Component, Fragment } from "react";
 
 export class Navbar extends Component {
+  scrollTo(id) {
+    var elmnt = document.getElementById(id);
+    elmnt.scrollIntoView({ behavior: 'smooth' });
+  }
   render() {
     var coupleName = "Ankita Krishanu";
     return (
@@ -24,23 +28,23 @@ export class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <a className="nav-link" href="#">
+                <a className="nav-link"  onClick={() => this.scrollTo('banner')}>
                   Home <span className="sr-only">(current)</span>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Our Story
+                <a className="nav-link" onClick={() => this.scrollTo('bride-groom')}>
+                  Bride & Groom
                 </a>
               </li>
               <li className="nav-item active">
-                <a className="nav-link" href="#">
+                <a className="nav-link" onClick={() => this.scrollTo('wedding-timeline')}>
                   Wedding Events
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Contact Us
+                <a className="nav-link" onClick={() => this.scrollTo('when-and-where')}>
+                  Location
                 </a>
               </li>
             </ul>

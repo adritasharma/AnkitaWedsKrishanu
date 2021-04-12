@@ -73,7 +73,9 @@ global-color-primary: #FFCDCB;
   color: #fff !important;
   font-style: italic;
 }
-
+.nav-item a {
+  cursor: pointer;
+}
 @media only screen and (min-width: 366px) and (max-width: 464px) {
   .navbar-brand h2 {
     font-size: 1.5rem;

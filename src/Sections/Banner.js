@@ -42,7 +42,7 @@ export class Banner extends Component {
   render() {
     const windowWidth = this.state.windowWidth;
     return (
-      <section className="banner" style={{ background: 'url(' +process.env.PUBLIC_URL + "/images/banner.JPG" +')' }} >
+      <section id="banner" className="banner" style={{ background: 'url(' +process.env.PUBLIC_URL + "/images/banner.JPG" +')' }} >
       </section>
     );
   }

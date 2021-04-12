@@ -35,7 +35,7 @@ export class Whenandwhere extends Component {
 
     return (
       <Fragment>
-        <section className="when-and-where">
+        <section className="when-and-where" id="when-and-where">
           <div className="row">
             {locations.map((item, i) => {
               return (

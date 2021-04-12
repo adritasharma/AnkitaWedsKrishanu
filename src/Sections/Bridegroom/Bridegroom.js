@@ -36,7 +36,7 @@ export class Bridegroom extends Component {
     ];
     return (
       <Fragment>
-        <h2 className="section-header">Bride & Groom</h2>
+        <h2 className="section-header" id="bride-groom">Bride & Groom</h2>
         <Seperator />
 
         {persons.map((item, i) => {
