@@ -45,7 +45,7 @@ export class Bridegroom extends Component {
               <div className="col-7 mx-auto">
                 <h3 className="bridegroom-name item-heading">{item.name}</h3>
                 <img
-                  src={process.env.PUBLIC_URL + "images/" + item.imagename}
+                  src={process.env.PUBLIC_URL + "/images/" + item.imagename}
                   className="bridegroom-image rounded-circle img-thumbnail"
                 ></img>
               </div>

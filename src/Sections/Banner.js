@@ -47,41 +47,4 @@ export class Banner extends Component {
     );
   }
 
-  // render() {
-  //   const windowWidth = this.state.windowWidth;
-  //   return (
-  //     <section className="banner">
-  //       <div className="row">
-  //         {windowWidth > 1100 && (
-  //           <Fragment>
-  //             <div className="col-4">
-  //               <img src={process.env.PUBLIC_URL + "images/banner2.jpg"} />
-  //               <div className="save-the-date-banner"></div>
-  //             </div>
-  //             <div className="col-4">
-  //               <img src={process.env.PUBLIC_URL + "images/banner1.jpg"} />
-  //             </div>
-  //             <div className="col-4">
-  //               <img src={process.env.PUBLIC_URL + "images/banner3.jpg"} />
-  //             </div>
-  //           </Fragment>
-  //         )}
-  //                {windowWidth > 500 && windowWidth<= 1100 && (
-  //           <Fragment>
-  //             <div className="col-6">
-  //               <img src={process.env.PUBLIC_URL + "images/banner1.jpg"} />
-  //             </div>
-  //             <div className="col-6">
-  //               <img src={process.env.PUBLIC_URL + "images/banner3.jpg"} />
-  //             </div>
-  //           </Fragment>
-  //         )}
-  //         <div className="col-12 text-center save-the-date-banner">
-  //           Save the date
-  //           <p>28/06/2021 {windowWidth}</p>
-  //         </div>
-  //       </div>
-  //     </section>
-  //   );
-  // }
 }
