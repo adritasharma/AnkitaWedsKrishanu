@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/WeddingSite/static/css/main.b2af15e1.chunk.css",
-    "main.js": "/WeddingSite/static/js/main.f6a77263.chunk.js",
-    "main.js.map": "/WeddingSite/static/js/main.f6a77263.chunk.js.map",
-    "runtime-main.js": "/WeddingSite/static/js/runtime-main.623788a3.js",
-    "runtime-main.js.map": "/WeddingSite/static/js/runtime-main.623788a3.js.map",
-    "static/js/2.de87f041.chunk.js": "/WeddingSite/static/js/2.de87f041.chunk.js",
-    "static/js/2.de87f041.chunk.js.map": "/WeddingSite/static/js/2.de87f041.chunk.js.map",
-    "static/js/3.1018bb77.chunk.js": "/WeddingSite/static/js/3.1018bb77.chunk.js",
-    "static/js/3.1018bb77.chunk.js.map": "/WeddingSite/static/js/3.1018bb77.chunk.js.map",
-    "index.html": "/WeddingSite/index.html",
-    "static/css/main.b2af15e1.chunk.css.map": "/WeddingSite/static/css/main.b2af15e1.chunk.css.map",
-    "static/js/2.de87f041.chunk.js.LICENSE.txt": "/WeddingSite/static/js/2.de87f041.chunk.js.LICENSE.txt",
-    "static/media/logo.cfb6b948.svg": "/WeddingSite/static/media/logo.cfb6b948.svg"
+    "main.css": "/AnkitaWedsKrishanu/static/css/main.655f803d.chunk.css",
+    "main.js": "/AnkitaWedsKrishanu/static/js/main.92c91206.chunk.js",
+    "main.js.map": "/AnkitaWedsKrishanu/static/js/main.92c91206.chunk.js.map",
+    "runtime-main.js": "/AnkitaWedsKrishanu/static/js/runtime-main.4e06f9b3.js",
+    "runtime-main.js.map": "/AnkitaWedsKrishanu/static/js/runtime-main.4e06f9b3.js.map",
+    "static/js/2.de87f041.chunk.js": "/AnkitaWedsKrishanu/static/js/2.de87f041.chunk.js",
+    "static/js/2.de87f041.chunk.js.map": "/AnkitaWedsKrishanu/static/js/2.de87f041.chunk.js.map",
+    "static/js/3.1018bb77.chunk.js": "/AnkitaWedsKrishanu/static/js/3.1018bb77.chunk.js",
+    "static/js/3.1018bb77.chunk.js.map": "/AnkitaWedsKrishanu/static/js/3.1018bb77.chunk.js.map",
+    "index.html": "/AnkitaWedsKrishanu/index.html",
+    "static/css/main.655f803d.chunk.css.map": "/AnkitaWedsKrishanu/static/css/main.655f803d.chunk.css.map",
+    "static/js/2.de87f041.chunk.js.LICENSE.txt": "/AnkitaWedsKrishanu/static/js/2.de87f041.chunk.js.LICENSE.txt",
+    "static/media/logo.cfb6b948.svg": "/AnkitaWedsKrishanu/static/media/logo.cfb6b948.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.623788a3.js",
+    "static/js/runtime-main.4e06f9b3.js",
     "static/js/2.de87f041.chunk.js",
-    "static/css/main.b2af15e1.chunk.css",
-    "static/js/main.f6a77263.chunk.js"
+    "static/css/main.655f803d.chunk.css",
+    "static/js/main.92c91206.chunk.js"
   ]
 }
