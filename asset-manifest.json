@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ankita-weds-krishanu/static/css/main.655f803d.chunk.css",
-    "main.js": "/ankita-weds-krishanu/static/js/main.b587bf93.chunk.js",
-    "main.js.map": "/ankita-weds-krishanu/static/js/main.b587bf93.chunk.js.map",
-    "runtime-main.js": "/ankita-weds-krishanu/static/js/runtime-main.6a6bd2e1.js",
-    "runtime-main.js.map": "/ankita-weds-krishanu/static/js/runtime-main.6a6bd2e1.js.map",
-    "static/js/2.de87f041.chunk.js": "/ankita-weds-krishanu/static/js/2.de87f041.chunk.js",
-    "static/js/2.de87f041.chunk.js.map": "/ankita-weds-krishanu/static/js/2.de87f041.chunk.js.map",
-    "static/js/3.1018bb77.chunk.js": "/ankita-weds-krishanu/static/js/3.1018bb77.chunk.js",
-    "static/js/3.1018bb77.chunk.js.map": "/ankita-weds-krishanu/static/js/3.1018bb77.chunk.js.map",
-    "index.html": "/ankita-weds-krishanu/index.html",
-    "static/css/main.655f803d.chunk.css.map": "/ankita-weds-krishanu/static/css/main.655f803d.chunk.css.map",
-    "static/js/2.de87f041.chunk.js.LICENSE.txt": "/ankita-weds-krishanu/static/js/2.de87f041.chunk.js.LICENSE.txt",
-    "static/media/logo.cfb6b948.svg": "/ankita-weds-krishanu/static/media/logo.cfb6b948.svg"
+    "main.css": "/wedding-site/static/css/main.655f803d.chunk.css",
+    "main.js": "/wedding-site/static/js/main.0bcd3e79.chunk.js",
+    "main.js.map": "/wedding-site/static/js/main.0bcd3e79.chunk.js.map",
+    "runtime-main.js": "/wedding-site/static/js/runtime-main.dfa38794.js",
+    "runtime-main.js.map": "/wedding-site/static/js/runtime-main.dfa38794.js.map",
+    "static/js/2.de87f041.chunk.js": "/wedding-site/static/js/2.de87f041.chunk.js",
+    "static/js/2.de87f041.chunk.js.map": "/wedding-site/static/js/2.de87f041.chunk.js.map",
+    "static/js/3.1018bb77.chunk.js": "/wedding-site/static/js/3.1018bb77.chunk.js",
+    "static/js/3.1018bb77.chunk.js.map": "/wedding-site/static/js/3.1018bb77.chunk.js.map",
+    "index.html": "/wedding-site/index.html",
+    "static/css/main.655f803d.chunk.css.map": "/wedding-site/static/css/main.655f803d.chunk.css.map",
+    "static/js/2.de87f041.chunk.js.LICENSE.txt": "/wedding-site/static/js/2.de87f041.chunk.js.LICENSE.txt",
+    "static/media/logo.cfb6b948.svg": "/wedding-site/static/media/logo.cfb6b948.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6a6bd2e1.js",
+    "static/js/runtime-main.dfa38794.js",
     "static/js/2.de87f041.chunk.js",
     "static/css/main.655f803d.chunk.css",
-    "static/js/main.b587bf93.chunk.js"
+    "static/js/main.0bcd3e79.chunk.js"
   ]
 }
