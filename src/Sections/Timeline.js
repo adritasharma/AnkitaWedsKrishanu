@@ -27,7 +27,7 @@ export class Timeline extends Component {
         eventClass: "danger",
       },
       {
-        dateString: "1 July",
+        dateString: "30 June",
         eventName: "Reception",
         eventDesc: `Mehndi on bride's hands will bring positive spirits and
     good luck`,
