@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/WeddingSite/static/css/main.655f803d.chunk.css",
+    "main.css": "/WeddingSite/static/css/main.b2af15e1.chunk.css",
     "main.js": "/WeddingSite/static/js/main.f6a77263.chunk.js",
     "main.js.map": "/WeddingSite/static/js/main.f6a77263.chunk.js.map",
     "runtime-main.js": "/WeddingSite/static/js/runtime-main.623788a3.js",
@@ -10,14 +10,14 @@
     "static/js/3.1018bb77.chunk.js": "/WeddingSite/static/js/3.1018bb77.chunk.js",
     "static/js/3.1018bb77.chunk.js.map": "/WeddingSite/static/js/3.1018bb77.chunk.js.map",
     "index.html": "/WeddingSite/index.html",
-    "static/css/main.655f803d.chunk.css.map": "/WeddingSite/static/css/main.655f803d.chunk.css.map",
+    "static/css/main.b2af15e1.chunk.css.map": "/WeddingSite/static/css/main.b2af15e1.chunk.css.map",
     "static/js/2.de87f041.chunk.js.LICENSE.txt": "/WeddingSite/static/js/2.de87f041.chunk.js.LICENSE.txt",
     "static/media/logo.cfb6b948.svg": "/WeddingSite/static/media/logo.cfb6b948.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.623788a3.js",
     "static/js/2.de87f041.chunk.js",
-    "static/css/main.655f803d.chunk.css",
+    "static/css/main.b2af15e1.chunk.css",
     "static/js/main.f6a77263.chunk.js"
   ]
 }
