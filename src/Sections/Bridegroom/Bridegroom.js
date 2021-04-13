@@ -15,7 +15,12 @@ export class Bridegroom extends Component {
           linkedIn: "https://www.linkedin.com/in/ankita-sarkar-838199113/"
         },
         imagename: "ankita.JPG",
-        description: `Need Help!!!!!!!!!!!!`
+        description: `Ankita has a multi-dimensional personality. She loves singing, dancing and  also baking.
+         She enjoys cooking in her free time and  is a full-time pharmacist by profession. Ankita is a full-fledged
+          DESI when it comes to songs and movies. She is also a complete family person,
+           like Krishanu and her world revolves around her family. She has a strong personality and the best thing is 
+           that she never easily gives up on anything. She'll try until she succeeds.But above all,
+            she is still a child at heart and her daddy's little princess!`
       },
       {
         id: 2,
