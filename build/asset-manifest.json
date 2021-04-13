@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AnkitaWedsKrishanu/static/css/main.616d415d.chunk.css",
+    "main.css": "/AnkitaWedsKrishanu/static/css/main.6206c223.chunk.css",
     "main.js": "/AnkitaWedsKrishanu/static/js/main.d9f770b4.chunk.js",
     "main.js.map": "/AnkitaWedsKrishanu/static/js/main.d9f770b4.chunk.js.map",
     "runtime-main.js": "/AnkitaWedsKrishanu/static/js/runtime-main.4e06f9b3.js",
@@ -10,14 +10,14 @@
     "static/js/3.1018bb77.chunk.js": "/AnkitaWedsKrishanu/static/js/3.1018bb77.chunk.js",
     "static/js/3.1018bb77.chunk.js.map": "/AnkitaWedsKrishanu/static/js/3.1018bb77.chunk.js.map",
     "index.html": "/AnkitaWedsKrishanu/index.html",
-    "static/css/main.616d415d.chunk.css.map": "/AnkitaWedsKrishanu/static/css/main.616d415d.chunk.css.map",
+    "static/css/main.6206c223.chunk.css.map": "/AnkitaWedsKrishanu/static/css/main.6206c223.chunk.css.map",
     "static/js/2.de87f041.chunk.js.LICENSE.txt": "/AnkitaWedsKrishanu/static/js/2.de87f041.chunk.js.LICENSE.txt",
     "static/media/logo.cfb6b948.svg": "/AnkitaWedsKrishanu/static/media/logo.cfb6b948.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4e06f9b3.js",
     "static/js/2.de87f041.chunk.js",
-    "static/css/main.616d415d.chunk.css",
+    "static/css/main.6206c223.chunk.css",
     "static/js/main.d9f770b4.chunk.js"
   ]
 }
