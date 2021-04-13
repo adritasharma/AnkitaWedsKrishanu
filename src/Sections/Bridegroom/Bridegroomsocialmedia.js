@@ -17,8 +17,8 @@ export class Bridegroomsocialmedia extends Component {
               </a>
             </div>
             <div className="col-4 text-center">
-              <a href={this.props.socialMedia.linkedin} target="_blank">
-                <i className="fa fa-linkedIn"> </i>
+              <a href={this.props.socialMedia.linkedIn} target="_blank">
+                <i className="fa fa-linkedin"> </i>
               </a>
             </div>
           </div>
