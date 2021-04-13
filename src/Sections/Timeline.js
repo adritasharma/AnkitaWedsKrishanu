@@ -6,7 +6,7 @@ export class Timeline extends Component {
       {
         dateString: "27 June",
         eventName: "Mehendi",
-        eventDesc: `Mehndi on bride's hands will bring positive spirits and
+        eventDesc: `Mehendi on bride's hands will bring positive spirits and
     good luck`,
         eventKey: "mehendi",
         eventClass: "success",
@@ -29,8 +29,7 @@ export class Timeline extends Component {
       {
         dateString: "30 June",
         eventName: "Reception",
-        eventDesc: `Mehndi on bride's hands will bring positive spirits and
-    good luck`,
+        eventDesc: `Party usually held after the completion of a marriage ceremony as hospitality.`,
         eventKey: "reception",
         eventClass: "info",
       },
